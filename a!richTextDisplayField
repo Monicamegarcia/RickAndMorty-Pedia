@@ -1,0 +1,11 @@
+a!richTextDisplayField(
+  label: "Status",
+  labelPosition: "JUSTIFIED",
+  value: a!richTextIcon(
+    icon:
+    rule!RMP_statusDecision(
+      status: fv!row['recordType!{976a7223-ae0c-41dc-820a-4e215e7505a9}RMP Personaje.fields.{805437a7-a8ac-4074-8757-68ac36943ea7}status']
+    ),
+    caption: fv!row['recordType!{976a7223-ae0c-41dc-820a-4e215e7505a9}RMP Personaje.fields.{805437a7-a8ac-4074-8757-68ac36943ea7}status']
+    )
+   )
